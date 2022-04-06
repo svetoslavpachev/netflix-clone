@@ -13,7 +13,11 @@ export default function Home() {
       </Head>
       <h1>Netflix</h1>
       {/* <NavBar /> */}
-      <Banner />
+      <Banner
+        title="batman"
+        subTitle="Very nice movie"
+        imgUrl="https://media.istockphoto.com/photos/the-dark-knight-picture-id458603411?k=20&m=458603411&s=612x612&w=0&h=FPUeTxLiNyUeQzxCphesL2QaL6yngA3v43d-YQ-3Brg="
+      />
       {/* <Card /> */}
     </div>
   )
